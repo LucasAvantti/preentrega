@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo_fifa{
+    width: 70px;
+    border-radius: 50%;
+}
+
+h1, h2, h3{
+    font-family: 'Frijole', cursive;
+    text-align: center;
+}
+/*  CONTENIDO DE ORIGENES  */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: double 2px blue;
+}
+
+.text {
+    grid-column: 1 / 2;
+}
+
+.image {
+    grid-column: 2 / 3;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*  Fin del CONTENIDO DE ORIGENES  */
+
+.text_uni_XIX {
+    margin: 10px;
+}
+.text_pri_eve {
+    margin: 10px;
+}
+.text_exp_int{
+    margin: 10px;
+}
