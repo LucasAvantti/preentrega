@@ -13,7 +13,7 @@ body{
     border-radius: 50%;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h5{
     font-family: 'Frijole', cursive;
     text-align: center;
 }
@@ -47,9 +47,54 @@ h1, h2, h3{
 .text_uni_XIX {
     margin: 10px;
 }
+/* IMAGENES DE UNIFICACION DEL SIGLO XIX */
+
+.img_uni_XIX {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img_uni_XIX img {
+    width: 300px;
+}
+
+/*  FIN DE IMAGENES DE UNIFICACION DEL SIGLO XIX */
+
 .text_pri_eve {
     margin: 10px;
 }
+
+/*  IMAGENE PRIMEROS EVENTOS */
+
+.img_pri_eve {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img_pri_eve img {
+    width: 250px;
+}
+
+/*  FIN DE IMAGENE PRIMEROS EVENTOS */
+
 .text_exp_int{
     margin: 10px;
 }
+
+/*  IMAGENES EXPANCION INTERNACIONAL */
+
+.img_exp_int {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img_exp_int img {
+    width: 300px;
+}
+
+/*  FIN DE EXPANCION INTERNACIONAL */
