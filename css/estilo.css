@@ -98,3 +98,98 @@ h1, h2, h3, h4, h5{
 }
 
 /*  FIN DE EXPANCION INTERNACIONAL */
+
+/* CAMPEONATOS */
+
+/* MUNDIALES */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    opacity: .7;
+}
+
+.grid-item :hover {
+    opacity: 1;
+}
+
+.img_cop_america {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img_cop_america img {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+/* TEXTO CAMPEONATOS */
+
+.text_mundial {
+    text-align: center;
+    background-color: white;
+}
+
+.text_copa_america {
+    text-align: center;
+    background-color: white;
+}
+
+.text_champions {
+    text-align: center;
+    background-color: white;
+}
+
+/* FIN TEXTO CAMPEONATOS */
+
+/* IMAGENES CHAMPIONS LEAGUE */
+
+.img_champions {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img_champions img {
+    max-width: 400px;
+    max-height: 300px;
+}
+
+/* FIN IMAGENES CHAMPIONS LEAGUE */
+
+.text_libertadores {
+    text-align: center;
+    background-color: white;   
+}
+
+/* IMAGENES COPA LIBERTADORES */
+
+.img_libertadores {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img_libertadores img {
+    max-width: 400px;
+    max-height: 300px;
+}
