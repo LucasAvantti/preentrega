@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5{
 /*  Fin del CONTENIDO DE ORIGENES  */
 
 .text_uni_XIX {
-    margin: 10px;
+    margin: 50px;
 }
 /* IMAGENES DE UNIFICACION DEL SIGLO XIX */
 
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5{
 /*  FIN DE IMAGENES DE UNIFICACION DEL SIGLO XIX */
 
 .text_pri_eve {
-    margin: 10px;
+    margin: 50px;
 }
 
 /*  IMAGENE PRIMEROS EVENTOS */
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5{
 /*  FIN DE IMAGENE PRIMEROS EVENTOS */
 
 .text_exp_int{
-    margin: 10px;
+    margin: 50px;
 }
 
 /*  IMAGENES EXPANCION INTERNACIONAL */
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5{
 .grid-item img {
     max-width: 100%;
     max-height: 100%;
-    opacity: .7;
+    opacity: .3;
 }
 
 .grid-item :hover {
@@ -144,17 +144,14 @@ h1, h2, h3, h4, h5{
 
 .text_mundial {
     text-align: center;
-    background-color: white;
 }
 
 .text_copa_america {
     text-align: center;
-    background-color: white;
 }
 
 .text_champions {
     text-align: center;
-    background-color: white;
 }
 
 /* FIN TEXTO CAMPEONATOS */
@@ -176,8 +173,7 @@ h1, h2, h3, h4, h5{
 /* FIN IMAGENES CHAMPIONS LEAGUE */
 
 .text_libertadores {
-    text-align: center;
-    background-color: white;   
+    text-align: center; 
 }
 
 /* IMAGENES COPA LIBERTADORES */
@@ -233,4 +229,141 @@ h1, h2, h3, h4, h5{
 
 .flex_seguime img {
     max-width: 50px;
+}
+
+/* DESAROLLO */
+
+/* CULTURA */
+
+.conteiner_cultura {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conteiner_text_cultura {
+    grid-column: 1 / 2;
+}
+
+.conteiner_img_cultura {
+    grid-column: 2 / 3;
+}
+
+.conteiner_img_cultura img {
+    max-width: 100%;
+    height: auto;
+}
+
+.conteiner_cultura_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conteiner_text_cultura_2 {
+    grid-column: 1 / 2;
+}
+
+.conteiner_img_cultura_2 {
+    grid-column: 2 / 3;
+}
+
+.conteiner_img_cultura_2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.conteiner_cultura_all {
+    border: 2px blueviolet solid;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}       
+/* FIN CULTURA */
+
+/* ECONOMIA */
+
+.text_economia {
+    margin: 50px;
+    padding: auto;
+}
+
+.img_economia {
+    max-width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;        
+}
+
+.img_economia img {
+    border: 3px blueviolet solid;
+}
+
+/* FIN ECONOMIA */
+
+/* DOPAJE */
+
+.text_dopaje {
+    margin: 50px;
+}
+
+/* FIN DOPAJE */
+
+/* VIOLENCIA */
+
+.text_violencia {
+    margin: 50px;
+}
+
+.img_violencia {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img_violencia img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px blueviolet solid;
+}
+/* FIN VIOLENCIA */
+
+/* MEDIA QUIERIS */
+@media (max-width: 425px) {
+    body{
+        background-color: lightgray;
+        color: darkmagenta ;
+    }
+    .img_violencia img{
+        border: 2px darkred double;
+    }
+    .img_economia img{
+        border: 2px darkkhaki double;
+    }
+    .conteiner_img_cultura img {
+        border: 2px darkgreen double;
+    }
+    .conteiner_cultura_2 img {
+        border: 2px darkgreen double;
+    }
+    .conteiner_cultura_all {
+        border: 2px darkgreen double;
+    }
+    .grid-item {
+        background-color: goldenrod;
+        border: 2px solid darkred;
+    }
+    .img_cop_america img {
+        border: 2px solid darkmagenta;
+    }
+    .img_libertadores img {
+        margin: 0 auto;
+    } 
 }
