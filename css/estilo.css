@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5{
 }
 /* FIN VIOLENCIA */
 
-/* MEDIA QUIERIS */
+/* MEDIA QUERIS */
 @media (max-width: 425px) {
     body{
         background-color: lightgray;
@@ -367,3 +367,17 @@ h1, h2, h3, h4, h5{
         margin: 0 auto;
     } 
 }
+
+/* FIN MEDIA QUERIS*/
+
+/* REGLAS */
+
+.accordion-body {
+    display: flex;
+    justify-content: space-around;
+}
+.accordion-body img {
+    width: 300px;
+}
+
+/* FIN REGLAS */
