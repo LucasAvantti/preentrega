@@ -197,7 +197,6 @@ h1, h2, h3, h4, h5{
     max-width: 350px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
     font-size: large;
     border: black 1px solid;
 }
@@ -213,7 +212,6 @@ h1, h2, h3, h4, h5{
     max-width: 350px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
     font-size: large;
     border: black 1px solid;
 }
@@ -338,8 +336,11 @@ h1, h2, h3, h4, h5{
 /* MEDIA QUERIS */
 @media (max-width: 425px) {
     body{
-        background-color: lightgray;
-        color: darkmagenta ;
+        background-color: rgb(11, 36, 36);
+        color: limegreen ;
+    }
+    img {
+        max-width: 50%;
     }
     .img_violencia img{
         border: 2px darkred double;
@@ -366,6 +367,12 @@ h1, h2, h3, h4, h5{
     .img_libertadores img {
         margin: 0 auto;
     } 
+    .grid_num_contacto {
+        border: limegreen 2px solid;
+    }
+    .grid_email {
+        border: limegreen 2px solid;
+    }
 }
 
 /* FIN MEDIA QUERIS*/
@@ -376,8 +383,12 @@ h1, h2, h3, h4, h5{
     display: flex;
     justify-content: space-around;
 }
+
 .accordion-body img {
     width: 300px;
 }
 
+.text_reglas_fut {
+    margin: 50px;
+}
 /* FIN REGLAS */
