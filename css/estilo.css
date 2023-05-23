@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5{
 .img_uni_XIX img {
     width: 300px;
 }
+.img_uni_XIX :hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+}
 
 /*  FIN DE IMAGENES DE UNIFICACION DEL SIGLO XIX */
 
@@ -78,6 +82,11 @@ h1, h2, h3, h4, h5{
     width: 250px;
 }
 
+.img_pri_eve :hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+}
+
 /*  FIN DE IMAGENE PRIMEROS EVENTOS */
 
 .text_exp_int{
@@ -95,6 +104,11 @@ h1, h2, h3, h4, h5{
 
 .img_exp_int img {
     width: 300px;
+}
+
+.img_exp_int :hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
 }
 
 /*  FIN DE EXPANCION INTERNACIONAL */
@@ -140,6 +154,11 @@ h1, h2, h3, h4, h5{
     max-height: 300px;
 }
 
+.img_cop_america :hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+}
+
 /* TEXTO CAMPEONATOS */
 
 .text_mundial {
@@ -170,6 +189,11 @@ h1, h2, h3, h4, h5{
     max-height: 300px;
 }
 
+.img_champions :hover {
+    transform: scale(1.2, 1.2);
+    transition: all 2s;
+}
+
 /* FIN IMAGENES CHAMPIONS LEAGUE */
 
 .text_libertadores {
@@ -181,13 +205,18 @@ h1, h2, h3, h4, h5{
 .img_libertadores {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .img_libertadores img {
-    max-width: 400px;
+    max-width: 350px;
     max-height: 300px;
+}
+
+.img_libertadores :hover {
+    transform: scale(1.1, 1.1);
+    transition: all 2s;
 }
 
 .grid_email {
@@ -302,7 +331,10 @@ h1, h2, h3, h4, h5{
 
 .img_economia img {
     border: 3px blueviolet solid;
+    width: 350px;
+    height: 200px;
 }
+
 
 /* FIN ECONOMIA */
 
@@ -311,7 +343,17 @@ h1, h2, h3, h4, h5{
 .text_dopaje {
     margin: 50px;
 }
+.img_dopaje {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
 
+.img_dopaje img {
+    width: 400px;
+    height: 300px;
+    border: 2px solid blueviolet;
+}
 /* FIN DOPAJE */
 
 /* VIOLENCIA */
@@ -327,20 +369,17 @@ h1, h2, h3, h4, h5{
     flex-wrap: wrap;
 }
 .img_violencia img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 550;
+    height: 500;
     border: 3px blueviolet solid;
 }
 /* FIN VIOLENCIA */
 
 /* MEDIA QUERIS */
 @media (max-width: 425px) {
-    body{
-        background-color: rgb(11, 36, 36);
-        color: limegreen ;
-    }
+
     img {
-        max-width: 50%;
+        max-width: 100%;
     }
     .img_violencia img{
         border: 2px darkred double;
