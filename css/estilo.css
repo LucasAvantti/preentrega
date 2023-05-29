@@ -5,10 +5,14 @@
 
 body {
   background-color: gainsboro;
-  font-family: 'Barlow', sans-serif; }
+  font-family: 'bold', sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: 'Frijole', cursive;
     text-align: center; }
+
+header nav img {
+  width: 70px;
+  border-radius: 50%; }
 
 main {
   /*  Fin del CONTENIDO DE ORIGENES  */
@@ -34,13 +38,10 @@ main {
   /* FIN DOPAJE */
   /* VIOLENCIA */
   /* FIN VIOLENCIA */
-  /* MEDIA QUERIS */
-  /* FIN MEDIA QUERIS*/
   /* REGLAS */
-  /* FIN REGLAS */ }
-  main .logo_fifa {
-    width: 70px;
-    border-radius: 50%; }
+  /* FIN REGLAS */
+  /* MEDIA QUERIS */
+  /* FIN MEDIA QUERIS*/ }
   main .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -65,9 +66,9 @@ main {
     flex-wrap: wrap; }
     main .img_uni_XIX img {
       width: 300px; }
-    main .img_uni_XIX:hover {
-      transform: scale(1.2, 1.2);
-      transition: all 2s; }
+      main .img_uni_XIX img:hover {
+        transform: scale(1.2, 1.2);
+        transition: all 2s; }
   main .text_pri_eve {
     margin: 50px; }
   main .img_pri_eve {
@@ -77,9 +78,9 @@ main {
     flex-wrap: wrap; }
     main .img_pri_eve img {
       width: 250px; }
-    main .img_pri_evehover {
-      transform: scale(1.2, 1.2);
-      transition: all 2s; }
+      main .img_pri_eve img:hover {
+        transform: scale(1.2, 1.2);
+        transition: all 2s; }
   main .text_exp_int {
     margin: 50px; }
   main .img_exp_int {
@@ -89,9 +90,9 @@ main {
     flex-wrap: wrap; }
     main .img_exp_int img {
       width: 300px; }
-    main .img_exp_inthover {
-      transform: scale(1.2, 1.2);
-      transition: all 2s; }
+      main .img_exp_int img:hover {
+        transform: scale(1.2, 1.2);
+        transition: all 2s; }
   main .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -107,8 +108,8 @@ main {
       max-width: 100%;
       max-height: 100%;
       opacity: .3; }
-    main .grid-itemhover {
-      opacity: 1; }
+      main .grid-item img:hover {
+        opacity: 1; }
   main .img_cop_america {
     margin: 0 auto;
     display: flex;
@@ -117,9 +118,9 @@ main {
     main .img_cop_america img {
       max-width: 400px;
       max-height: 300px; }
-    main .img_cop_americahover {
-      transform: scale(1.2, 1.2);
-      transition: all 2s; }
+      main .img_cop_america img:hover {
+        transform: scale(1.2, 1.2);
+        transition: all 2s; }
   main .text_mundial {
     text-align: center; }
   main .text_copa_america {
@@ -134,9 +135,9 @@ main {
     main .img_champions img {
       max-width: 400px;
       max-height: 300px; }
-    main .img_championshover {
-      transform: scale(1.2, 1.2);
-      transition: all 2s; }
+      main .img_champions img:hover {
+        transform: scale(1.2, 1.2);
+        transition: all 2s; }
   main .text_libertadores {
     text-align: center; }
   main .img_libertadores {
@@ -147,9 +148,9 @@ main {
     main .img_libertadores img {
       max-width: 350px;
       max-height: 300px; }
-    main .img_libertadoreshover {
-      transform: scale(1.1, 1.1);
-      transition: all 2s; }
+      main .img_libertadores img:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 2s; }
   main .grid_email {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -239,6 +240,13 @@ main {
       width: 550;
       height: 500;
       border: 3px blueviolet solid; }
+  main .accordion-body {
+    display: flex;
+    justify-content: space-around; }
+    main .accordion-body img {
+      width: 300px; }
+  main .text_reglas_fut {
+    margin: 50px; }
   @media (max-width: 425px) {
     main img {
       max-width: 100%; }
@@ -263,13 +271,6 @@ main {
       border: limegreen 2px solid; }
     main .grid_email {
       border: limegreen 2px solid; } }
-  main .accordion-body {
-    display: flex;
-    justify-content: space-around; }
-    main .accordion-body img {
-      width: 300px; }
-  main .text_reglas_fut {
-    margin: 50px; }
 
 footer .flex_seguime {
   display: flex;
