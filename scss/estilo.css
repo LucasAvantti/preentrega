@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+  font-family: "Barlow", sans-serif;
+}
+body h1, body h2, body h3, body h4, body h5 {
+  font-family: "Frijole", cursive;
+  text-align: center;
+}
+
+header .logo_fifa {
+  width: 70px;
+  border-radius: 50%;
+}
+
+main {
+  /*  Fin del CONTENIDO DE ORIGENES  */
+  /* IMAGENES DE UNIFICACION DEL SIGLO XIX */
+  /*  FIN DE IMAGENES DE UNIFICACION DEL SIGLO XIX */
+  /*  IMAGENE PRIMEROS EVENTOS */
+  /*  FIN DE IMAGENE PRIMEROS EVENTOS */
+  /*  IMAGENES EXPANCION INTERNACIONAL */
+  /*  FIN DE EXPANCION INTERNACIONAL */
+  /* CAMPEONATOS */
+  /* MUNDIALES */
+  /* TEXTO CAMPEONATOS */
+  /* FIN TEXTO CAMPEONATOS */
+  /* IMAGENES CHAMPIONS LEAGUE */
+  /* FIN IMAGENES CHAMPIONS LEAGUE */
+  /* IMAGENES COPA LIBERTADORES */
+  /* DESAROLLO */
+  /* CULTURA */
+  /* FIN CULTURA */
+  /* ECONOMIA */
+  /* FIN ECONOMIA */
+  /* DOPAJE */
+  /* FIN DOPAJE */
+  /* VIOLENCIA */
+  /* FIN VIOLENCIA */
+  /* MEDIA QUERIS */
+  /* FIN MEDIA QUERIS*/
+  /* REGLAS */
+  /* FIN REGLAS */
+}
+main .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: double 2px blue;
+}
+main .text {
+  grid-column: 1/2;
+}
+main .image {
+  grid-column: 2/3;
+}
+main .image img {
+  max-width: 100%;
+  height: auto;
+}
+main .text_uni_XIX {
+  margin: 50px;
+}
+main .img_uni_XIX {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .img_uni_XIX img {
+  width: 300px;
+}
+main .img_uni_XIXhover {
+  transform: scale(1.2, 1.2);
+  transition: all 2s;
+}
+main .text_pri_eve {
+  margin: 50px;
+}
+main .img_pri_eve {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .img_pri_eve img {
+  width: 250px;
+}
+main .img_pri_evehover {
+  transform: scale(1.2, 1.2);
+  transition: all 2s;
+}
+main .text_exp_int {
+  margin: 50px;
+}
+main .img_exp_int {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .img_exp_int img {
+  width: 300px;
+}
+main .img_exp_inthover {
+  transform: scale(1.2, 1.2);
+  transition: all 2s;
+}
+main .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+main .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  height: 150px;
+  border: 1px solid #ccc;
+}
+main .grid-item img {
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.3;
+}
+main .grid-itemhover {
+  opacity: 1;
+}
+main .img_cop_america {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .img_cop_america img {
+  max-width: 400px;
+  max-height: 300px;
+}
+main .img_cop_americahover {
+  transform: scale(1.2, 1.2);
+  transition: all 2s;
+}
+main .text_mundial {
+  text-align: center;
+}
+main .text_copa_america {
+  text-align: center;
+}
+main .text_champions {
+  text-align: center;
+}
+main .img_champions {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .img_champions img {
+  max-width: 400px;
+  max-height: 300px;
+}
+main .img_championshover {
+  transform: scale(1.2, 1.2);
+  transition: all 2s;
+}
+main .text_libertadores {
+  text-align: center;
+}
+main .img_libertadores {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main .img_libertadores img {
+  max-width: 350px;
+  max-height: 300px;
+}
+main .img_libertadoreshover {
+  transform: scale(1.1, 1.1);
+  transition: all 2s;
+}
+main .grid_email {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: large;
+  border: black 1px solid;
+}
+main .grid_email img {
+  max-width: 50px;
+}
+main .grid_num_contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: large;
+  border: black 1px solid;
+}
+main .grid_num_contacto img {
+  max-width: 50px;
+}
+main .flex_seguime {
+  display: flex;
+  justify-content: center;
+}
+main .flex_seguime img {
+  max-width: 50px;
+}
+main .conteiner_cultura {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main .conteiner_text_cultura {
+  grid-column: 1/2;
+}
+main .conteiner_img_cultura {
+  grid-column: 2/3;
+}
+main .conteiner_img_cultura img {
+  max-width: 100%;
+  height: auto;
+}
+main .conteiner_cultura_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main .conteiner_text_cultura_2 {
+  grid-column: 1/2;
+}
+main .conteiner_img_cultura_2 {
+  grid-column: 2/3;
+}
+main .conteiner_img_cultura_2 img {
+  max-width: 100%;
+  height: auto;
+}
+main .conteiner_cultura_all {
+  border: 2px blueviolet solid;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main .text_economia {
+  margin: 50px;
+  padding: auto;
+}
+main .img_economia {
+  max-width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .img_economia img {
+  border: 3px blueviolet solid;
+  width: 350px;
+  height: 200px;
+}
+main .text_dopaje {
+  margin: 50px;
+}
+main .img_dopaje {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+main .img_dopaje img {
+  width: 400px;
+  height: 300px;
+  border: 2px solid blueviolet;
+}
+main .text_violencia {
+  margin: 50px;
+}
+main .img_violencia {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .img_violencia img {
+  width: 550;
+  height: 500;
+  border: 3px blueviolet solid;
+}
+@media (max-width: 425px) {
+  main img {
+    max-width: 100%;
+  }
+  main .img_violencia img {
+    border: 2px darkred double;
+  }
+  main .img_economia img {
+    border: 2px darkkhaki double;
+  }
+  main .conteiner_img_cultura img {
+    border: 2px darkgreen double;
+  }
+  main .conteiner_cultura_2 img {
+    border: 2px darkgreen double;
+  }
+  main .conteiner_cultura_all {
+    border: 2px darkgreen double;
+  }
+  main .grid-item {
+    background-color: goldenrod;
+    border: 2px solid darkred;
+  }
+  main .img_cop_america img {
+    border: 2px solid darkmagenta;
+  }
+  main .img_libertadores img {
+    margin: 0 auto;
+  }
+  main .grid_num_contacto {
+    border: limegreen 2px solid;
+  }
+  main .grid_email {
+    border: limegreen 2px solid;
+  }
+}
+main .accordion-body {
+  display: flex;
+  justify-content: space-around;
+}
+main .accordion-body img {
+  width: 300px;
+}
+main .text_reglas_fut {
+  margin: 50px;
+}/*# sourceMappingURL=estilo.css.map */
