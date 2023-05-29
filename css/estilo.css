@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
   background-color: gainsboro;
-  font-family: 'bold', sans-serif; }
+  font-family: 'Barlow', sans-serif; }
   body h1, body h2, body h3, body h4, body h5 {
     font-family: 'Frijole', cursive;
     text-align: center; }
@@ -29,6 +34,8 @@ main {
   /* FIN DOPAJE */
   /* VIOLENCIA */
   /* FIN VIOLENCIA */
+  /* MEDIA QUERIS */
+  /* FIN MEDIA QUERIS*/
   /* REGLAS */
   /* FIN REGLAS */ }
   main .logo_fifa {
@@ -58,9 +65,9 @@ main {
     flex-wrap: wrap; }
     main .img_uni_XIX img {
       width: 300px; }
-      main .img_uni_XIX img:hover {
-        transform: scale(1.2, 1.2);
-        transition: all 2s; }
+    main .img_uni_XIX:hover {
+      transform: scale(1.2, 1.2);
+      transition: all 2s; }
   main .text_pri_eve {
     margin: 50px; }
   main .img_pri_eve {
@@ -70,9 +77,9 @@ main {
     flex-wrap: wrap; }
     main .img_pri_eve img {
       width: 250px; }
-      main .img_pri_eve img:hover {
-        transform: scale(1.2, 1.2);
-        transition: all 2s; }
+    main .img_pri_evehover {
+      transform: scale(1.2, 1.2);
+      transition: all 2s; }
   main .text_exp_int {
     margin: 50px; }
   main .img_exp_int {
@@ -82,9 +89,9 @@ main {
     flex-wrap: wrap; }
     main .img_exp_int img {
       width: 300px; }
-      main .img_exp_int img:hover {
-        transform: scale(1.2, 1.2);
-        transition: all 2s; }
+    main .img_exp_inthover {
+      transform: scale(1.2, 1.2);
+      transition: all 2s; }
   main .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -100,8 +107,8 @@ main {
       max-width: 100%;
       max-height: 100%;
       opacity: .3; }
-      main .grid-item img:hover {
-        opacity: 1; }
+    main .grid-itemhover {
+      opacity: 1; }
   main .img_cop_america {
     margin: 0 auto;
     display: flex;
@@ -110,9 +117,9 @@ main {
     main .img_cop_america img {
       max-width: 400px;
       max-height: 300px; }
-      main .img_cop_america img:hover {
-        transform: scale(1.2, 1.2);
-        transition: all 2s; }
+    main .img_cop_americahover {
+      transform: scale(1.2, 1.2);
+      transition: all 2s; }
   main .text_mundial {
     text-align: center; }
   main .text_copa_america {
@@ -127,9 +134,9 @@ main {
     main .img_champions img {
       max-width: 400px;
       max-height: 300px; }
-      main .img_champions img:hover {
-        transform: scale(1.2, 1.2);
-        transition: all 2s; }
+    main .img_championshover {
+      transform: scale(1.2, 1.2);
+      transition: all 2s; }
   main .text_libertadores {
     text-align: center; }
   main .img_libertadores {
@@ -140,9 +147,9 @@ main {
     main .img_libertadores img {
       max-width: 350px;
       max-height: 300px; }
-      main .img_libertadores img:hover {
-        transform: scale(1.1, 1.1);
-        transition: all 2s; }
+    main .img_libertadoreshover {
+      transform: scale(1.1, 1.1);
+      transition: all 2s; }
   main .grid_email {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -232,6 +239,30 @@ main {
       width: 550;
       height: 500;
       border: 3px blueviolet solid; }
+  @media (max-width: 425px) {
+    main img {
+      max-width: 100%; }
+    main .img_violencia img {
+      border: 2px darkred double; }
+    main .img_economia img {
+      border: 2px darkkhaki double; }
+    main .conteiner_img_cultura img {
+      border: 2px darkgreen double; }
+    main .conteiner_cultura_2 img {
+      border: 2px darkgreen double; }
+    main .conteiner_cultura_all {
+      border: 2px darkgreen double; }
+    main .grid-item {
+      background-color: goldenrod;
+      border: 2px solid darkred; }
+    main .img_cop_america img {
+      border: 2px solid darkmagenta; }
+    main .img_libertadores img {
+      margin: 0 auto; }
+    main .grid_num_contacto {
+      border: limegreen 2px solid; }
+    main .grid_email {
+      border: limegreen 2px solid; } }
   main .accordion-body {
     display: flex;
     justify-content: space-around; }
@@ -240,40 +271,8 @@ main {
   main .text_reglas_fut {
     margin: 50px; }
 
-/* MEDIA QUERIS */
-@media (max-width: 425px) {
-  img {
-    max-width: 100%; }
-  .img_violencia img {
-    border: 2px darkred double; }
-  .img_economia img {
-    border: 2px darkkhaki double; }
-  .conteiner_img_cultura img {
-    border: 2px darkgreen double; }
-  .conteiner_cultura_2 img {
-    border: 2px darkgreen double; }
-  .conteiner_cultura_all {
-    border: 2px darkgreen double; }
-  .grid-item {
-    background-color: goldenrod;
-    border: 2px solid darkred; }
-  .img_cop_america img {
-    border: 2px solid darkmagenta; }
-  .img_libertadores img {
-    margin: 0 auto; }
-  .grid_num_contacto {
-    border: limegreen 2px solid; }
-  .grid_email {
-    border: limegreen 2px solid; } }
-
-/* FIN MEDIA QUERIS*/
 footer .flex_seguime {
   display: flex;
   justify-content: center; }
   footer .flex_seguime img {
     max-width: 50px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
