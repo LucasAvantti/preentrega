@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+/* El body contiene, fondo del mismo color del logo de la fifa, letra tipo blod, y el color de letra es gainsboro ya que no cansa tanto a la vista que un white*/
+
 body {
-    background-color: gainsboro;
+    background-color: #2C4B86;
     font-family: 'bold', sans-serif;
+    color: gainsboro;
 
     h1, h2, h3, h4, h5 {
-        font-family: 'Frijole', cursive;
+        font-family: 'Monofett', monospace;
         text-align: center;
     }
 }
+
+/* los titulos contienen el tipo de lera Monofett*/
