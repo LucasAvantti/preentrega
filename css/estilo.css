@@ -25,7 +25,14 @@ main {
   /*  IMAGENES EXPANCION INTERNACIONAL, tiene diseño flex, ademas de agregarle transition y transform */
   /* MUNDIALES, contiene grid ya que al tener muchas imagenes se hace mas ficil diseñarlo en grid, ademas de agregarles hover a las imagenes */
   /* TEXTO CAMPEONATOS */
-  /* IMAGENES CHAMPIONS LEAGUE, contiene display flex, le agrgue trasform, transition y hover */ }
+  /* IMAGENES CHAMPIONS LEAGUE, contiene display flex, le agrgue trasform, transition y hover */
+  /* IMAGENES COPA LIBERTADORES, contiene display flex, le agrgue trasform, transition y hover */
+  /* CULTURA, contiene display flex, le agrgue trasform, transition y hover */
+  /* ECONOMIA, contiene display flex */
+  /* DOPAJE, contiene display flex */
+  /* VIOLENCIA, contiene display flex */
+  /* REGLAS, contienen diplay flex */
+  /* MEDIA QUERIS, contiene todo el contedido mobile tales como color, border, etc. */ }
   main .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -115,145 +122,138 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    /* IMAGENES COPA LIBERTADORES, contiene display flex, le agrgue trasform, transition y hover */
-    /* CULTURA, contiene display flex, le agrgue trasform, transition y hover */
-    /* ECONOMIA, contiene display flex */
-    /* DOPAJE, contiene display flex */
-    /* VIOLENCIA, contiene display flex */
-    /* REGLAS, contienen diplay flex */
-    /* MEDIA QUERIS, contiene todo el contedido mobile tales como color, border, etc. */ }
+    flex-wrap: wrap; }
     main .img_champions img {
       max-width: 400px;
       max-height: 300px; }
       main .img_champions img:hover {
         transform: scale(1.2, 1.2);
         transition: all 2s; }
-    main .img_champions .text_libertadores {
-      text-align: center; }
-    main .img_champions .img_libertadores {
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap; }
-      main .img_champions .img_libertadores img {
-        max-width: 350px;
-        max-height: 300px; }
-        main .img_champions .img_libertadores img:hover {
-          transform: scale(1.1, 1.1);
-          transition: all 2s; }
-    main .img_champions .grid_email {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 50px;
+  main .text_libertadores {
+    text-align: center; }
+  main .img_libertadores {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    main .img_libertadores img {
       max-width: 350px;
-      margin: 0 auto;
-      padding: 20px;
-      font-size: large;
-      border: black 1px solid; }
-      main .img_champions .grid_email img {
-        max-width: 50px; }
-    main .img_champions .grid_num_contacto {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      max-width: 350px;
-      margin: 0 auto;
-      padding: 20px;
-      font-size: large;
-      border: black 1px solid; }
-      main .img_champions .grid_num_contacto img {
-        max-width: 50px; }
-    main .img_champions .section_cultura {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap; }
-      main .img_champions .section_cultura .text_cultura {
-        margin: 20px;
-        padding: auto; }
-      main .img_champions .section_cultura .img_cultura {
-        max-width: 100%;
-        max-height: 100%; }
-        main .img_champions .section_cultura .img_cultura img {
-          border: 3px sandybrown solid;
-          width: 350px;
-          height: 200px; }
-          main .img_champions .section_cultura .img_cultura img:hover {
-            transform: scale(1.2, 1.2);
-            transition: all 2s; }
-      main .img_champions .section_cultura .img_cultura_2 {
-        max-width: 100%;
-        max-height: 100%; }
-        main .img_champions .section_cultura .img_cultura_2 img {
-          border: 3px sandybrown solid;
-          width: 350px;
-          height: 200px; }
-          main .img_champions .section_cultura .img_cultura_2 img:hover {
-            transform: scale(1.2, 1.2);
-            transition: all 2s; }
-    main .img_champions .text_economia {
+      max-height: 300px; }
+      main .img_libertadores img:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 2s; }
+  main .grid_email {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+    border: black 1px solid; }
+    main .grid_email img {
+      max-width: 50px; }
+  main .grid_num_contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: large;
+    border: black 1px solid; }
+    main .grid_num_contacto img {
+      max-width: 50px; }
+  main .section_cultura {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    main .section_cultura .text_cultura {
       margin: 20px;
       padding: auto; }
-    main .img_champions .img_economia {
+    main .section_cultura .img_cultura {
       max-width: 100%;
-      margin: 20px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap; }
-      main .img_champions .img_economia img {
-        border: 3px blueviolet solid;
+      max-height: 100%; }
+      main .section_cultura .img_cultura img {
+        border: 3px sandybrown solid;
         width: 350px;
         height: 200px; }
-    main .img_champions .text_dopaje {
-      margin: 20px; }
-    main .img_champions .img_dopaje {
-      margin: 0 auto;
-      display: flex;
-      justify-content: center; }
-      main .img_champions .img_dopaje img {
-        width: 400px;
-        height: 300px;
-        border: 2px solid blueviolet; }
-    main .img_champions .text_violencia {
-      margin: 20px; }
-    main .img_champions .img_violencia {
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap; }
-      main .img_champions .img_violencia img {
-        width: 550;
-        height: 500;
-        border: 3px blueviolet solid; }
-    main .img_champions .accordion-body {
-      display: flex;
-      justify-content: space-around; }
-      main .img_champions .accordion-body img {
-        width: 300px; }
-    main .img_champions .text_reglas_fut {
-      margin: 20px; }
-    @media (max-width: 425px) {
-      main .img_champions img {
-        max-width: 100%; }
-      main .img_champions .img_violencia img {
-        border: 2px darkred double; }
-      main .img_champions .img_economia img {
-        border: 2px darkkhaki double; }
-      main .img_champions .grid-item {
-        background-color: #2C4B86;
-        border: 2px solid #2C4B86; }
-      main .img_champions .img_cop_america img {
-        border: 2px solid darkmagenta; }
-      main .img_champions .img_libertadores img {
-        margin: 0 auto; }
-      main .img_champions .grid_num_contacto {
-        border: limegreen 2px solid; }
-      main .img_champions .grid_email {
-        border: limegreen 2px solid; }
-      main .img_champions .campeones_copa_america {
-        width: 90% auto; }
-      main .img_champions .cultura_obelisco {
-        width: auto; } }
+        main .section_cultura .img_cultura img:hover {
+          transform: scale(1.2, 1.2);
+          transition: all 2s; }
+    main .section_cultura .img_cultura_2 {
+      max-width: 100%;
+      max-height: 100%; }
+      main .section_cultura .img_cultura_2 img {
+        border: 3px sandybrown solid;
+        width: 350px;
+        height: 200px; }
+        main .section_cultura .img_cultura_2 img:hover {
+          transform: scale(1.2, 1.2);
+          transition: all 2s; }
+  main .text_economia {
+    margin: 20px;
+    padding: auto; }
+  main .img_economia {
+    max-width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    main .img_economia img {
+      border: 3px blueviolet solid;
+      width: 350px;
+      height: 200px; }
+  main .text_dopaje {
+    margin: 20px; }
+  main .img_dopaje {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; }
+    main .img_dopaje img {
+      width: 400px;
+      height: 300px;
+      border: 2px solid blueviolet; }
+  main .text_violencia {
+    margin: 20px; }
+  main .img_violencia {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    main .img_violencia img {
+      width: 550;
+      height: 500;
+      border: 3px blueviolet solid; }
+  main .accordion-body {
+    display: flex;
+    justify-content: space-around; }
+    main .accordion-body img {
+      width: 300px; }
+  main .text_reglas_fut {
+    margin: 20px; }
+  @media (max-width: 425px) {
+    main img {
+      max-width: 100%; }
+    main .img_violencia img {
+      border: 2px darkred double; }
+    main .img_economia img {
+      border: 2px darkkhaki double; }
+    main .grid-item {
+      background-color: #2C4B86;
+      border: 2px solid #2C4B86; }
+    main .img_cop_america img {
+      border: 2px solid darkmagenta; }
+    main .img_libertadores img {
+      margin: 0 auto; }
+    main .grid_num_contacto {
+      border: limegreen 2px solid; }
+    main .grid_email {
+      border: limegreen 2px solid; }
+    main .campeones_copa_america {
+      width: 90% auto; }
+    main .cultura_obelisco {
+      width: auto; } }
 
 footer .flex_seguime {
   display: flex;
