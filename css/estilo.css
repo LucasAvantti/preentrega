@@ -253,7 +253,9 @@ main {
     main .campeones_copa_america {
       width: 90% auto; }
     main .cultura_obelisco {
-      width: auto; } }
+      width: auto; }
+    main .accordion img {
+      width: 40%; } }
 
 footer .flex_seguime {
   display: flex;
