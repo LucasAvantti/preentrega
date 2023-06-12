@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Frijole&display=swap" rel="stylesheet">
@@ -37,7 +38,9 @@
                         <li class="nav-item">
                         <a class="nav-link" href="./reglas.html">Reglas</a>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contaco.html">Contaco</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -70,6 +73,22 @@
                 <p>099 123 456</p>
             </div>
         </div>
+
+        <h3>Formulario de Contacto</h3>
+        <section class="form-comtact">
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <input type="button" value="Enviar">
+            </form>
+        </section>
 
         <hr>
 

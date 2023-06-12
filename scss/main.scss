@@ -339,6 +339,36 @@ main {
         margin: 20px;
     }
 
+    /* Formulario de Contacto */
+
+    form {
+        width: 400px;
+        margin: 0 auto;
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        }
+
+        input[type="button"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+    }
+
     /* MEDIA QUERIS, contiene todo el contedido mobile tales como color, border, etc. */
 
 @media (max-width: 425px) {

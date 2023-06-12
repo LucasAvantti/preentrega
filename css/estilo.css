@@ -32,6 +32,7 @@ main {
   /* DOPAJE, contiene display flex */
   /* VIOLENCIA, contiene display flex */
   /* REGLAS, contienen diplay flex */
+  /* Formulario de Contacto */
   /* MEDIA QUERIS, contiene todo el contedido mobile tales como color, border, etc. */ }
   main .container {
     display: grid;
@@ -232,6 +233,26 @@ main {
       width: 300px; }
   main .text_reglas_fut {
     margin: 20px; }
+  main form {
+    width: 400px;
+    margin: 0 auto; }
+    main form label {
+      display: block;
+      margin-top: 10px; }
+    main form input[type="text"],
+    main form input[type="email"],
+    main form textarea {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc; }
+    main form input[type="button"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none; }
   @media (max-width: 425px) {
     main img {
       max-width: 100%; }
